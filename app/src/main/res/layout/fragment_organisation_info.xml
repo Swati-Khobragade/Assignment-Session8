@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ScreenColor"
+    android:padding="10dp"
+    tools:context=".fragment.OrganisationInfoFragment">
+
+    <TextView
+        android:id="@+id/orgInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/orgInfo"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/orgLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orgInfo"
+        android:layout_centerHorizontal="true"
+        android:text="@string/orgCenters"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orgLocation"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageViewIndia"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            tools:src="@drawable/india" />
+
+        <TextView
+            android:id="@+id/textViewIndia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/india"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/imageViewUkraine"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            tools:src="@drawable/ukraine" />
+
+        <TextView
+            android:id="@+id/textViewUkraine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ukraine"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/white" />
+
+
+        <ImageView
+            android:id="@+id/imageViewUSA"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            tools:src="@drawable/usa" />
+
+        <TextView
+            android:id="@+id/textViewUsa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/usa"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/imageViewCanada"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            tools:src="@drawable/canada" />
+
+        <TextView
+            android:id="@+id/textViewCanada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/canada"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ScreenColor"
+    android:padding="10dp"
+    tools:context=".fragment.ApplicationInfoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutPackName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewAppPackName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/appPackageName"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/editTextAppPackName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMinSdk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayoutPackName"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewMinSdk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/minSdk"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/editTextMinSdk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutTargetSdk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayoutMinSdk"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textViewTargetSdk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/targetSdk"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/editTextTargetSdk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0" />
+    </LinearLayout>
+
+
+</RelativeLayout>

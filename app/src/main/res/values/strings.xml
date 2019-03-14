@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Company Management System</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="orgInfo">WE’RE GLOBAL IN MORE THAN NAME</string>
+    <string name="orgCenters">Engineering Centers</string>
+    <string name="india">India</string>
+    <string name="ukraine">Ukraine</string>
+    <string name="usa">USA</string>
+    <string name="canada">Canada</string>
+    <string name="settings">For more information,Please contact Admin</string>
+    <string name="appPackageName">Package Name</string>
+    <string name="minSdk">Min SDK</string>
+    <string name="targetSdk">Target SDK</string>
+    <string name="appVersion">Application Version</string>
+    <string name="welcomeMsg">Welcome To CompanyManagement System</string>
+    <string name="developerId">swati.khobragade@globallogic.com</string>
+    <string name="contactAdmin">For more information,Please contact Admin !!</string>
+</resources>
